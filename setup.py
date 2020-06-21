@@ -8,8 +8,8 @@ kw = {
     'description': 'Bee framework',
     'license': 'MIT',
     'install_requires': ['uvloop', 'pyyaml',
-                         'SQLAlchemy==1.2.12', 'redis',
-                         'aioredis', 'six', 'gino==0.8.5',
+                         'SQLAlchemy>=1.3.0', 'redis',
+                         'aioredis', 'six', 'gino==1.0.1',
                          'colorama', 'terminaltables',
                          'termcolor', 'rom', 'cerberus',
                          'click', 'msgpack'
