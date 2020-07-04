@@ -13,7 +13,6 @@ import conf
 
 class Mikro:
     def __init__(self):
-        # veritabani, redis vs setup
         self.redis = None
         self.loop = ai.get_event_loop()
         self.running = False
